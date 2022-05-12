@@ -11,7 +11,9 @@ const mix = require('laravel-mix');
  |
  */
 
-mix.js('resources/js/app.js', 'public/js')
-    .postCss('resources/css/app.css', 'public/css', [
-        //
-    ]);
+mix.
+    styles([
+        'resources/views/solasstech/css/style.css',
+        'node_modules/bootstrap/dist/css/bootstrap.css',
+    ], 'public/solasstech/css/bootstrap.css')
+    .version();
