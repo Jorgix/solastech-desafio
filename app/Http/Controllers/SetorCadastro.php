@@ -8,5 +8,6 @@ class SetorCadastro extends Controller
 {
     public function index(){
         return view('setor.index');
+
     }
 }
