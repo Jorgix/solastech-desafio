@@ -7,6 +7,6 @@
     <title>Listagem de setor</title>
 </head>
 <body>
-    <h1>Listagem do setor</h1>
+    <h1>Listagem dos setores</h1>
 </body>
 </html>
