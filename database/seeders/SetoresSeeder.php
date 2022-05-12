@@ -17,7 +17,6 @@ class SetoresSeeder extends Seeder
         SetorCadastro::create([
             'Sigla' => 'INFO',
             'DescSetor' => 'O setor de informática é responsável pelo funcionamento...',
-            'updated_at' => '',
         ]);
     }
 }
