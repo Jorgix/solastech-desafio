@@ -26,7 +26,6 @@ class CreateSetorCadastrosTable extends Migration
      *
      * @return void
      */
-
     public function down()
     {
         Schema::dropIfExists('setor_cadastros');
