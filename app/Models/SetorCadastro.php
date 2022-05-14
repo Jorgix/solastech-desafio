@@ -12,6 +12,5 @@ class SetorCadastro extends Model
     protected $fillable = [
         'Sigla',
         'DescSetor',
-
     ];
 }
