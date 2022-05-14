@@ -15,8 +15,8 @@ class SetoresSeeder extends Seeder
     public function run()
     {
         SetorCadastro::create([
-            'Sigla' => 'INFO',
-            'DescSetor' => 'O setor de informática é responsável pelo funcionamento...',
+            'Sigla' => 'FINA',
+            'DescSetor' => 'O setor financeiro é responsável pelo funcionamento...',
         ]);
     }
 }
