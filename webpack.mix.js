@@ -1,3 +1,4 @@
+const { scripts } = require('laravel-mix');
 const mix = require('laravel-mix');
 
 /*
@@ -16,4 +17,9 @@ mix.
         'resources/views/solasstech/css/style.css',
         'node_modules/bootstrap/dist/css/bootstrap.css',
     ], 'public/solasstech/css/bootstrap.css')
+    .version();
+
+    scripts([
+        'node_modules/bootstrap/dist/js/bootstrap.bundle.js',
+    ], 'public/solasstech/js/bootstrap.bundle.js')
     .version();
